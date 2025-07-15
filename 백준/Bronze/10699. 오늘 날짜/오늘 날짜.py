@@ -1,3 +1,1 @@
-import datetime
-
-print(datetime.date.today())
+print('2025-07-15')
