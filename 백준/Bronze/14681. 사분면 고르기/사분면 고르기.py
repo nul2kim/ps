@@ -1,13 +1,14 @@
-x = int(input())
-y = int(input())
+a = input()
+b = input()
 
-if x > 0:  # x가 양수
-    if y > 0:  # y가 양수
-        print(1)
-    else:  # y가 음수
-        print(4)
-else:  # x가 음수
-    if y > 0:
-        print(2)
-    else:
-        print(3)
+X = int(a)
+Y = int(b)
+
+if X > 0 and Y > 0:
+    print('1')
+elif X < 0 < Y:
+    print('2')
+elif X < 0 and Y < 0:
+    print('3')
+else:
+    print('4')
